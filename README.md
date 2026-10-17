@@ -3,22 +3,22 @@
 This repository contains all the software programs used for the paper "Are we asking too much of the data? Model-based identification of infected individuals via group testing" submitted to *Statistics in Medicine*.
 
 ### Setup
-One requirement to implement the programs is to have R, python, and MATLAB (with license) installed in the device. Need to establish a connection between all of these as all the programs simultaneously use R, python, and MATLAB. Here is a way to start the setup:
+To run these programs, you need R, python, and MATLAB (with a valid license) installed on your device. Because the programs use all three simultaneously, the three must be able to communicate with one another. The steps below are one way to start the setup.
 
-at first create a Conda environment name "r-matlab311" with python version 3.11 using the following code in the terminal
+First create a conda environment named "r-matlab311" with Python 3.11 by running the following in the terminal:
 ```{}
 conda create -n r-matlab311 python=3.11 numpy
 ```
-Then active the conda environment with
+Next, active the environment:
 ```{}
 conda activate r-matlab311
 ```
-Finally, install matlab engine within the conda environment with
+Finally, install the matlab engine for Python within the environment:
 ```{}
 pip install matlabengine==24.1.*
 ```
 
-Note that, this is a way to start setting up your device for R, python, and MATLAB connection. Some changes to the code addressing this may need to change based on your device. For setting up, help from AI could be helpful. Once the setup is completed, all the programs are expected to run without any errors. 
+Note that these steps are a starting point for setting up R, python, and MATLAB connection on your device. Some commands may need to be adjusted for your device. AI could be helpful in setting up your device for this. Once the setup is complete, all the programs are expected to run without any errors. 
 
 ### Ghosh et al. (2021) simulation
 
