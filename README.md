@@ -3,7 +3,11 @@
 This repository contains all the software programs used for the paper "Are we asking too much of the data? Model-based identification of infected individuals via group testing" submitted to *Statistics in Medicine*.
 
 ### Setup
-One requirement to implement the programs is to have R, python, and MATLAB (with license) installed in the device. Need to establish a connection between all of these as all the programs simultaneously use R, python, and MATLAB. Here is a way to start the setup, at first create a Conda environment name "r-matlab311" with python version 3.11 using the code `conda create -n r-matlab311 python=3.11 numpy` in the terminal. Then active the conda environment with code `conda activate r-matlab311`. Finally, install matlab engine within the conda environment with code `pip install matlabengine`.
+One requirement to implement the programs is to have R, python, and MATLAB (with license) installed in the device. Need to establish a connection between all of these as all the programs simultaneously use R, python, and MATLAB. Here is a way to start the setup, at first create a Conda environment name "r-matlab311" with python version 3.11 using the code `conda create -n r-matlab311 python=3.11 numpy` in the terminal. Then active the conda environment with code `conda activate r-matlab311`. Finally, install matlab engine within the conda environment with code `pip install matlabengine==24.1.*`
+
+```{}
+pip install matlabengine==24.1.*
+```
 
 ### Ghosh et al. (2021) simulation
 
