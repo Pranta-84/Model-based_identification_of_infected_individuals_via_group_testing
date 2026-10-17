@@ -4,6 +4,7 @@ This repository contains all the software programs used for the paper "Are we as
 
 ### Setup
 One requirement to implement the programs is to have R, python, and MATLAB (with license) installed in the device. Need to establish a connection between all of these as all the programs simultaneously use R, python, and MATLAB. Here is a way to start the setup:
+
 at first create a Conda environment name "r-matlab311" with python version 3.11 using the following code in the terminal
 ```{}
 conda create -n r-matlab311 python=3.11 numpy
@@ -16,6 +17,8 @@ Finally, install matlab engine within the conda environment with
 ```{}
 pip install matlabengine==24.1.*
 ```
+
+Note that, this is a way to start setting up your device for R, python, and MATLAB connection. Some changes to the code addressing this may need to change based on your device. For setting up, help from AI could be helpful. Once the setup is completed, all the programs are expected to run without any errors. 
 
 ### Ghosh et al. (2021) simulation
 
