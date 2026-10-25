@@ -90,9 +90,9 @@ M_Dorf_opt_Se1 <- as.matrix(M_Dorf_opt_Se1)
 M_Dorf_opt_Se0.95 <- read.csv("DorfMatrix_p0.08Spe105Se0.95Sp1.csv")
 M_Dorf_opt_Se0.95 <- as.matrix(M_Dorf_opt_Se0.95)
 
-source("FunctionsForApproximatedREEDILabDataAnalysis.R")
+source("FunctionsForApproximatedREDDILabDataAnalysis.R")
 ## ReddiLab filtered data
-work_data <- read.csv("Approximated_ReddiLab_Data.csv")
+work_data <- read.csv("ReddiLabLognormalData.csv")
 names(work_data)
 #work_data2 <- work_data[, c(3, 17, 20)]
 #names(work_data2)
